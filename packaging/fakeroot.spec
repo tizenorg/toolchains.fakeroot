@@ -7,6 +7,7 @@ Group:      Development/Tools
 License:    GPL+
 URL:        http://fakeroot.alioth.debian.org/
 Source0:    http://ftp.debian.org/debian/pool/main/f/fakeroot/%{name}_%{version}.tar.gz
+Source1001: packaging/fakeroot.manifest 
 Requires:   util-linux
 Requires(post):  /sbin/ldconfig
 Requires(postun):  /sbin/ldconfig
@@ -30,6 +31,7 @@ had the user really been root.
 %setup -q -n %{name}-%{version}
 
 %build
+cp %{SOURCE1001} .
 for file in ./doc/*/*.1; do
   iconv -f latin1 -t utf8 < $file > $file.new
   mv -f $file.new $file
@@ -96,6 +98,7 @@ rm -rf %{buildroot}
 
 
 %files
+%manifest fakeroot.manifest
 %defattr(-,root,root,-)
 %doc AUTHORS BUGS COPYING DEBUG debian/changelog doc/README.saving
 %{_bindir}/faked-*
