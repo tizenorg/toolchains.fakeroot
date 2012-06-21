@@ -1,11 +1,11 @@
-* Wed Jun 22 2011 Chris Ferron <chris.e.ferron@linux.intel.com> - 1.12.4
-- removed util-linux-ng as it has been replaced by util-linux. 
+* Thu Jun 21 2012 Anas Nashif <anas.nashif@intel.com> 9cb0a26
+- change tarball name to make gbs work
 
-* Sat Jan 30 2010 Zhang, Qiang Z<qiang.z.zhang@intel.com> 1.12.4
-- Update to 1.12.4
+* Wed May 30 2012 Ryan Ware <ryan.r.ware@intel.com> 641d1df
+- Add default Smack manifest for fakeroot.spec
 
-* Tue Feb 19 2009 Zhang, Qiang Z<qiang.z.zhang@intel.com> 1.12.1
-- Update to 1.12.1
+* Mon May 21 2012 Kim Kibum <kb0929.kim@samsung.com> a3e1b09
+- Upload Tizen:Base source
+[ Hyesook Choi ]
+- Initial empty repository
 
-* Tue Jan 06 2009 Anas Nashif <anas.nashif@intel.com> 1.11
-- Initial import into Moblin
