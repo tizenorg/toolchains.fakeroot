@@ -1,3 +1,6 @@
+* Sat Jan 26 00:31:42 UTC 2013 - tracy.graydon@intel.com
+- Fix build dep on util-linux. Should be util-linux-ng for 2.0alpha 
+
 * Thu Jun 21 2012 Anas Nashif <anas.nashif@intel.com> 9cb0a26
 - change tarball name to make gbs work
 

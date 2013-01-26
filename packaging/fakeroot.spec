@@ -11,7 +11,7 @@ Requires:   util-linux
 Requires(post):  /sbin/ldconfig
 Requires(postun):  /sbin/ldconfig
 BuildRequires:  gcc-c++
-BuildRequires:  util-linux
+BuildRequires:  util-linux-ng
 BuildRequires:  sharutils
 
 
