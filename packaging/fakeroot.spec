@@ -25,6 +25,7 @@ had the user really been root.
 
 
 
+
 %prep
 %setup -q -n %{name}-%{version}
 
